@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "compile": "tsc",
+    "startServer": "node ./target/main-ts.js",
+    "start": "npm run compile && npm run startServer"
+  },
+  "dependencies": {
+    "fp-ts": "1",
+    "fp-ts-routing": "^0.5.4",
+    "io-ts": "1",
+    "typescript": "^4.4.4"
+  }
+}

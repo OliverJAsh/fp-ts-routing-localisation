@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "strict": true,
+        // "strictFunctionTypes": false,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitReturns": true,
+        "outDir": "./target",
+        "module": "commonjs",
+        "jsx": "react",
+    },
+    "include": ["./src/**/*"]
+}
